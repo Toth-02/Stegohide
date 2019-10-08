@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import os
 import threading
 from colors import Colors
@@ -105,7 +107,7 @@ if __name__ == '__main__':
             text_data_printer.join()
             del text_data, text_data_printer
 
-            SystemMessages.complete('{} {} writed with success!'.format(len(text),
+            SystemMessages.complete('{} {} writed with success!'.format(len(text) - 1,
                                                                         'character' if len(text) == 1 else 'characters')
                                     )
 
