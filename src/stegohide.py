@@ -26,10 +26,11 @@ if __name__ == '__main__':
 
         print('\n\n\n\n')
 
-        SystemMessages.hard_warning('Current working directory: {}\n'.format(os.getcwd()))
+        SystemMessages.hard_warning('Current working directory: {}'.format(os.getcwd()))
+        SystemMessages.hard_warning('Filename must not contain any space or the program will not work...\n\n')
 
         try:
-            image_path = input('[INSERT] Path of the image where you want to load: ')
+            image_path = input('[INSERT] Path of the image where you want to load: ').strip()
             stego = Steganography(image_path)
 
         except (FileNotFoundError, AttributeError):
