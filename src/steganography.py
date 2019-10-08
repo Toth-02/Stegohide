@@ -20,7 +20,7 @@ class Steganography:
 
     def __init__(self, fp: str) -> None:
 
-        if not fp.endswith(Steganography.IMAGE_EXT):
+        if not fp.strip().endswith(Steganography.IMAGE_EXT):
             raise ExtensionError
 
         self.__image = Image.open(fp).convert('RGBA')
