@@ -8,7 +8,6 @@ To install the dependency run:
 `pip install -r requirements.txt`
 <br />
 <br />
-<br />
 
 To run the program:
 <br />
