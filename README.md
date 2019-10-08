@@ -4,10 +4,12 @@ Simple tool to hide your messages!
 
 ## Installation
 To install the dependency run:
-`<em>pip install -r requirements.txt</em>`
+`pip install -r requirements.txt`
 
 To run the program:
-`<em>python3 stegohide.py</em>`
+`python3 stegohide.py`
+<br />
 **or**
-`<em>chmod +x stegohide.py</em>`
-`<em>./stegohide.py</em>`
+<br />
+`chmod +x stegohide.py`
+`./stegohide.py`
