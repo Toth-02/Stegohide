@@ -21,7 +21,7 @@ class SystemMessages:
             "╚════██║   ██║   ██╔══╝  ██║   ██║██║   ██║██╔══██║██║██║  ██║██╔══╝  ",
             "███████║   ██║   ███████╗╚██████╔╝╚██████╔╝██║  ██║██║██████╔╝███████╗",
             "╚══════╝   ╚═╝   ╚══════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝╚═════╝ ╚══════╝",
-            "                                                         Coded by Thot"
+            "                                                      Coded by Toth-02"
         ]])
 
         print('\n\n{}{}{}\n\n\n'.format(Colors.INFO.value, banner_rows, Colors.DEFAULT.value))
